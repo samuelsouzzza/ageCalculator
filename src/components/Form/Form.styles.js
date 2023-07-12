@@ -5,6 +5,13 @@ export const Container = styled.section`
   height: 30%;
   width: 85%;
   border-bottom: 1px solid hsl(0, 0%, 86%);
+  @media only screen and (max-width: 780px) {
+    min-width: 95%;
+  }
+  @media only screen and (max-width: 400px) {
+    flex-direction: column;
+    padding: 10% 0 15% 0;
+  }
 `;
 export const Label = styled.label`
   display: flex;
@@ -29,7 +36,7 @@ export const Input = styled.input`
 `;
 export const SendButton = styled.button`
   background-color: hsl(259, 100%, 65%);
-  position: absolute;
+  position: fixed;
   top: 36%;
   left: 60.5%;
   height: 50px;
@@ -43,6 +50,13 @@ export const SendButton = styled.button`
   transition: 0.3s;
   &:hover {
     transform: scale(1.25);
+  }
+  @media only screen and (max-width: 780px) {
+    left: 65%;
+  }
+  @media only screen and (max-width: 400px) {
+    top: 51%;
+    left: 72%;
   }
 `;
 export const MessageError = styled.p`

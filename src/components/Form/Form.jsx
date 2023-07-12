@@ -18,6 +18,10 @@ const Form = ({ calculate }) => {
     fieldYear: false,
   });
 
+  React.useEffect(() => {
+    calculate(day, month, year);
+  }, []);
+
   const inputDay = React.useRef();
   const inputMonth = React.useRef();
   const inputYear = React.useRef();
