@@ -55,7 +55,7 @@ export const SendButton = styled.button`
     left: 65%;
   }
   @media only screen and (max-width: 400px) {
-    top: 51%;
+    top: 43%;
     left: 72%;
   }
 `;

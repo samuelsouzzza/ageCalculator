@@ -6,6 +6,12 @@ export const Wrapper = styled.main`
   width: 100%;
   display: grid;
   place-items: center;
+  @media only screen and (max-width: 400px) {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    padding: 5%;
+  }
 `;
 export const Card = styled.section`
   background-color: hsl(0, 0%, 100%);
