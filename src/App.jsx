@@ -24,7 +24,6 @@ function App() {
     };
 
     setDate(age);
-    console.log(date);
   }
   return (
     <Wrapper>

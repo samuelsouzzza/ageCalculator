@@ -16,7 +16,7 @@ export const Input = styled.input`
   font-size: 1.5rem;
   border-radius: 10px;
   padding: 5%;
-  width: 85%;
+  width: 90%;
   border: 1px solid hsl(0, 0%, 86%);
   &::-webkit-outer-spin-button,
   &::-webkit-inner-spin-button {
@@ -44,4 +44,8 @@ export const SendButton = styled.button`
   &:hover {
     transform: scale(1.25);
   }
+`;
+export const MessageError = styled.p`
+  color: hsl(0, 100%, 67%);
+  font-size: 0.55rem;
 `;
