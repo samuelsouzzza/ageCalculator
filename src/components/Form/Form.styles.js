@@ -36,7 +36,7 @@ export const Input = styled.input`
 `;
 export const SendButton = styled.button`
   background-color: hsl(259, 100%, 65%);
-  position: fixed;
+  position: absolute;
   top: 36%;
   left: 60.5%;
   height: 50px;
